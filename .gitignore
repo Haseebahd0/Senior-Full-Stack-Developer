@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+
+# Compiled output
+dist/
+*.tsbuildinfo
+
+# Dependency directories
+/jspm_packages/
+/bower_components/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Test generated files
+/e2e/*.log
+/e2e/*.png
+/e2e/screenshots/
+/e2e/videos/
+
+# Environment variables
+.env
