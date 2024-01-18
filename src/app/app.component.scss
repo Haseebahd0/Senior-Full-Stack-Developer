@@ -1,0 +1,30 @@
+.layout {
+    width: 400px;
+    height: 400px;
+}
+
+.outer-circle {
+    position: absolute;
+}
+
+.inner-circle {
+    position: absolute;
+}
+
+.hour {
+    position: absolute;
+    left: 7%;
+    top: 10%;
+}
+
+.minute {
+    position: absolute;
+    left: 14%;
+    top: 6%;
+}
+
+.second {
+    position: absolute;
+    left: 14.5%;
+    top: 20%;
+}
