@@ -26,6 +26,9 @@ export class AppComponent implements OnInit {
     return 'rotate('+((this.minutes* 6)+310)+'deg)';
   }
   getHourStyle() {
-    return 'rotate('+((this.hours* 6)+47)+'deg)';
+    return 'rotate('+((this.hours* 6)+(47 + this.getHourSemi()))+'deg)';
+  }
+  getHourSemi() {
+    return this.minutes / 7
   }
 }
