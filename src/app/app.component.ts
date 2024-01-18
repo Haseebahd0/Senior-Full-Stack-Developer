@@ -20,12 +20,12 @@ export class AppComponent implements OnInit {
   }
 
   getSecondStyle() {
-    return 'rotate('+(this.seconds* 6)+'deg)';
+    return 'rotate('+((this.seconds* 6)+241)+'deg)';
   }
   getMinStyle() {
-    return 'rotate('+(this.minutes* 6)+'deg)';
+    return 'rotate('+((this.minutes* 6)+310)+'deg)';
   }
   getHourStyle() {
-    return 'rotate('+(this.hours* 6)+'deg)';
+    return 'rotate('+((this.hours* 6)+47)+'deg)';
   }
 }
